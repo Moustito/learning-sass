@@ -1,0 +1,64 @@
+#Conteneur {
+  width: 20rem;
+  height: 20rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.Top {
+  background-image: url("assets/india2.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+.Date {
+  display: flex;
+  right: 0;
+  border: 1px solid yellow;
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+}
+
+.Desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid yellow;
+}
+
+.Info {
+  background-color: white;
+  padding: 0px 35px 0px 25px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  transition: transform 0.3s ease-out;
+}
+
+.Titre {
+  text-transform: uppercase;
+  font-family: "impact", sans-serif;
+}
+
+.Stitre {
+  color: red;
+  font-family: "times", serif;
+}
+
+.Text {
+  font-family: "times", serif;
+  text-align: justify;
+  visibility: hidden;
+}
+
+.Foot {
+  display: flex;
+  font-family: "times", serif;
+}
+
+#Conteneur:hover .Text {
+  visibility: visible;
+}
+#Conteneur:hover .Info {
+  transform: translate(0, -50px);
+}/*# sourceMappingURL=style.css.map */

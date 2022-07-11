@@ -15,7 +15,7 @@ $Typo : 'Roboto', sans serif;
 
     transform: scale(1);
     transition: transform .3s linear;
-    overflow: hidden;
+    
 }
 .Date {
     width: 50px;
@@ -61,7 +61,7 @@ $Typo : 'Roboto', sans serif;
     font-size: 25px;
 }
 .Stitre {
-    margin: 7px 0 0 0;
+    margin: 7px 0 16px 0;
     color: $Orange;
     font-size: 21px;
 }
@@ -69,6 +69,7 @@ $Typo : 'Roboto', sans serif;
     text-align: justify;
     display: none;
     color: $grey;
+    margin-top: 0;
 }
 .Foot {
     margin: 20px 0 0 0;
